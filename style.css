@@ -1,0 +1,39 @@
+:root {
+    --white:#ffffff;
+    --grey:#fafafa;
+    --blue:#0095f6;
+
+}
+.bg-grey{ background-color: var(--grey);}
+.bg-light{background-color: var(--white) I !important;}
+
+.navbar{
+    min-height: 5rem;
+}
+
+a{
+    color: var(--blue);
+}
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+i.lead{
+    font-size: 1.8rem;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+.profile-picture{
+    background-image: url('./assets/playa.jpg');
+    background-size: cover;
+    width:3rem ;
+    height: 3rem;
+}
+
+.stories-container{
+    height: 190px;
+    overflow-y: auto;
+}
